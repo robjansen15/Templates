@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26020.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebformTemplate", "WebformTemplate", "{0C76EF32-E39E-4CA8-B316-5B969EC7A15B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Webform", "Template.Webform\Template.Webform.csproj", "{E2AAEAC5-1ED4-47D0-A879-5324E0585B82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Webform.Tests", "Template.Webform.Tests\Template.Webform.Tests.csproj", "{5BF7C16D-8511-4117-A581-692838A62F13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2AAEAC5-1ED4-47D0-A879-5324E0585B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2AAEAC5-1ED4-47D0-A879-5324E0585B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2AAEAC5-1ED4-47D0-A879-5324E0585B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2AAEAC5-1ED4-47D0-A879-5324E0585B82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BF7C16D-8511-4117-A581-692838A62F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BF7C16D-8511-4117-A581-692838A62F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BF7C16D-8511-4117-A581-692838A62F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BF7C16D-8511-4117-A581-692838A62F13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2AAEAC5-1ED4-47D0-A879-5324E0585B82} = {0C76EF32-E39E-4CA8-B316-5B969EC7A15B}
+		{5BF7C16D-8511-4117-A581-692838A62F13} = {0C76EF32-E39E-4CA8-B316-5B969EC7A15B}
+	EndGlobalSection
+EndGlobal
