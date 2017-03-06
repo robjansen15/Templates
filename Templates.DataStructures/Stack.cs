@@ -14,6 +14,7 @@ namespace Templates.DataStructures
 
         public void push(T element)
         {
+            //Dont actually need to check type of element... VS does this for you.
             _Stack.Add(element);
         }
 

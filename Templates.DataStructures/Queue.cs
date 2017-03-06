@@ -12,13 +12,14 @@ namespace Templates.DataStructures
         }
 
 
-        public void Enqueue(T element)
+        public void enqueue(T element)
         {
+            //Dont actually need to check type of element... VS does this for you.
             _Queue.Add(element);
         }
 
 
-        public T Dequeue()
+        public T dequeue()
         {
             if (_Queue.Count > 0)
             {
@@ -34,5 +35,6 @@ namespace Templates.DataStructures
 
 
         private List<T> _Queue { get; set; }
+        private T _Type { get; set; }
     }
 }
