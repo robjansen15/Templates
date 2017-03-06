@@ -18,7 +18,7 @@ namespace Templates.DataStructures
         /// <summary>
         /// resets the head back to where we want to be
         /// </summary>
-        private void reset()
+        private void Reset()
         {
             while(_LinkedList._Previous != null)
             {
@@ -31,7 +31,7 @@ namespace Templates.DataStructures
         /// adds elements to the linked list
         /// </summary>
         /// <param name="element"></param>
-        public void add(T element)
+        public void Add(T element)
         {
             while (true)
             {
@@ -44,7 +44,7 @@ namespace Templates.DataStructures
                 _LinkedList = _LinkedList._Next;
             }
 
-            reset();
+            Reset();
         }
 
 
@@ -52,7 +52,7 @@ namespace Templates.DataStructures
         /// removes an item from the linked list. you need to know all attributes of this item.
         /// </summary>
         /// <param name="element"></param>
-        public void remove(T element)
+        public void Remove(T element)
         {
             while(_LinkedList._Next != null)
             {
@@ -65,7 +65,7 @@ namespace Templates.DataStructures
                 _LinkedList = _LinkedList._Next;
             }
 
-            reset();
+            Reset();
         }
 
 
@@ -73,7 +73,7 @@ namespace Templates.DataStructures
         /// builds a list of the objects in the linked list
         /// </summary>
         /// <returns></returns>
-        public List<T> getList()
+        public List<T> GetList()
         {
             List<T> tempList = new List<T>();
 
@@ -83,7 +83,7 @@ namespace Templates.DataStructures
                 _LinkedList = _LinkedList._Next;
             }
 
-            reset();
+            Reset();
 
             return tempList;
         }

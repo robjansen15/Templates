@@ -81,14 +81,14 @@ namespace Templates.DataStructures
             //LINKED LIST
             LinkedList<Person> peopleList = new LinkedList<Person>(new Person("rob", 22));
 
-            peopleList.add(new Person("Jim", 21));
-            peopleList.add(new Person("John", 20));
-            peopleList.add(new Person("Akhil", 21));
+            peopleList.Add(new Person("Jim", 21));
+            peopleList.Add(new Person("John", 20));
+            peopleList.Add(new Person("Akhil", 21));
 
-            peopleList.remove(new Person("John", 20));
+            peopleList.Remove(new Person("John", 20));
 
 
-            foreach(var obj in peopleList.getList())
+            foreach(var obj in peopleList.GetList())
             {
                 Console.WriteLine(obj._Name + " / " + obj._Age);
             }           

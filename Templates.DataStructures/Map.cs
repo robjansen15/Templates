@@ -18,7 +18,7 @@ namespace Templates.DataStructures
         /// </summary>
         /// <param name="key"></param>
         /// <param name="element"></param>
-        public void add(T key, K element)
+        public void Add(T key, K element)
         {
             if(_Keys.FindAll(x=>x.Equals(key)).Count == 0)
             {
@@ -38,7 +38,7 @@ namespace Templates.DataStructures
         /// </summary>
         /// <param name="key"></param>
         /// <param name="element"></param>
-        public void remove(T key, K element)
+        public void Remove(T key, K element)
         {
             int index = _Keys.FindIndex(x => x.Equals(key));
 
@@ -54,7 +54,7 @@ namespace Templates.DataStructures
         /// removes an element bassed on a key
         /// </summary>
         /// <param name="key"></param>
-        public void remove(T key)
+        public void Remove(T key)
         {
             int index = _Keys.FindIndex(x => x.Equals(key));
 
@@ -67,7 +67,7 @@ namespace Templates.DataStructures
         /// removes and element based on the element itself
         /// </summary>
         /// <param name="element"></param>
-        public void remove(K element)
+        public void Remove(K element)
         {
             int index = _Elements.FindIndex(x => x.Equals(element));
 
@@ -81,7 +81,7 @@ namespace Templates.DataStructures
         /// </summary>
         /// <param name="key"></param>
         /// <returns></returns>
-        public K get(T key)
+        public K Get(T key)
         {
             if(_Keys.Count < 1)
             {
